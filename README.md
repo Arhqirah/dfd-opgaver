@@ -19,7 +19,7 @@ Du skal arbejde med denne branch, som er sat op med Astro-projekt. Indholdet er 
 
 ## Hints
 
-- Du kan bruge `flexbox` til at opnå det ønskede layout.
+- Duu kan bruge `flexbox` til at opnå det ønskede layout.
 - Brug `flex` til at justere kortets bredde (hhv. `flex: 1;` og fx `flex: 1.3;`).
 - Du kan animere bredden ved at bruge `transition`, når kortet bliver hovered.
 - Du kan bruge følgende Grid-teknik til at animere højden på kortets tekstindhold, så det kommer til syne med hover:
