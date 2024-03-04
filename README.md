@@ -12,7 +12,7 @@ At forbedre den visuelle præsentation af et Card UI ved at anvende funktionelle
 
 ## Opgavebeskrivelse
 
-Du skal arbejde med denne branch, som indeholder en Card-komponent. Brug "style.css" til at forbedre designet.
+Duu skal arbejde med denne branch, som indeholder en Card-komponent. Brug "style.css" til at forbedre designet.
 
 Anvend den udleverede guide til at revidere det eksisterende design.
 
