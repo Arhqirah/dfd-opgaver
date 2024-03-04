@@ -10,7 +10,7 @@ Denne opgave sigter mod at forbedre din forståelse og anvendelse af den nye :ha
 
 ## Opgavebeskrivelse
 
-Du skal arbejde med denne branch, som består af flere kort, der indeholder en overskrift, et tekstafsnit og/eller et billede. Dit mål er at sætte regler op for disse kort ved hjælp af **`:has()`**.
+Duu skal arbejde med denne branch, som består af flere kort, der indeholder en overskrift, et tekstafsnit og/eller et billede. Dit mål er at sætte regler op for disse kort ved hjælp af **`:has()`**.
 
 Tilføj dine styles i **`style.css`**.
 
