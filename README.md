@@ -12,7 +12,7 @@ At forbedre den visuelle præsentation af tekstindhold ved at anvende principper
 
 ## Opgavebeskrivelse
 
-Du skal arbejde med denne branch, som indeholder et HTML-dokuement med hovedoverskrifter, underoverskrifter, paragraffer, billeder og andre typografiske elementer. Brug "style.css" til at tilføje typografiske og farvemæssige forbedringer til indholdet.
+Duu skal arbejde med denne branch, som indeholder et HTML-dokuement med hovedoverskrifter, underoverskrifter, paragraffer, billeder og andre typografiske elementer. Brug "style.css" til at tilføje typografiske og farvemæssige forbedringer til indholdet.
 
 Anvend så vidt muligt ovenstående ressourcer til at revidere den eksisterende typografi og farveskema. Fokuser på en god typografiskala til at skabe kontrast og hierarki mellem overskrifter og brødtekst og forbedr den vertikale rytme i dit indhold ved at justere linjehøjden, hvor det er passende.
 
