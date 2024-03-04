@@ -2,11 +2,101 @@
     --color-heading: #0B0D19;
     --color-body: #677386;
     --color-bg-button: #3D7BFA;
+    --color-hover-button:#333842;
     --color-text-button: #FFF;
-
+    
     /* Når du synes, du er færdig, så ændr værdien herunder til '1' for at se dit resultat i browseren */
     --hide-overlay: 0;
 }
 
-
 /* Begynd her... */
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+h1 {
+    font-size: 6rem;
+    font-weight: bolder;
+    color: var(--color-heading);
+}
+p {
+    font-size: 1rem;
+    max-width: 50ch;
+    color: var(--color-body);
+    margin-top: 5%;
+}
+
+button {
+    background-color: var(--color-bg-button);
+    color: var(--color-text-button);
+    padding: 1rem;
+    border-radius: 2rem;
+    margin-top: 5%;
+}
+
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+article {
+    padding: 20px;
+}
+
+figure {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto 1fr auto;
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: none; 
+}
+
+
+figure img:nth-child(1),
+figure img:nth-child(2),
+figure img:nth-child(4),
+figure img:nth-child(3),
+figure img:nth-child(5), 
+figure img:nth-child(6),
+figure img:nth-child(7) { 
+    display: block;
+    border-radius: 2rem;
+}
+
+
+figure img:nth-child(3) {
+    grid-column: 2;
+    grid-row: 2 / span 2;
+    padding: 5%; 
+}
+
+
+figure img:nth-child(1),
+figure img:nth-child(7) {
+    grid-column: 2;
+}
+
+
+figure img:nth-child(2),
+figure img:nth-child(5) {
+    grid-column: 1;
+}
+
+figure img:nth-child(4),
+figure img:nth-child(6) {
+    grid-column: 3;
+}
+
