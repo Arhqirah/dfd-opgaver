@@ -6,6 +6,19 @@
     }
 }
 
+.card:not(:has(img)):not(:has(h3)) p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+
+  .card:not(:has(img)) h3 {
+    font-size: 2rem;
+  }
+
+  .card:has(img) {
+    padding: 0;
+  }
+
 
 
 
