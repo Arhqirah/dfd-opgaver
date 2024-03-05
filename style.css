@@ -1,2 +1,33 @@
 /* Dine styles her */
-article {}
+article {
+    --flow-space: .5rlh;
+  display: flex;
+  flex-direction: column;
+  gap: var(--flow-space);
+}
+
+article.custom-flow-space {
+    --flow-space: 1rlh;
+}
+
+article h2 {
+    margin-top: var(--flow-space, .5rlh);
+    margin-bottom: var(--flow-space, .5rlh);
+  }
+
+  article h2 {
+    --flow-space: 2rlh;
+  }
+
+  article h3 {
+    margin-top: var(--flow-space, .5rlh);
+    margin-bottom: var(--flow-space, .5rlh);
+  }
+
+  article h3 {
+    --flow-space: 1rlh;
+  }
+
+  article h3 + * {
+    margin-top: .25rlh;
+  }
