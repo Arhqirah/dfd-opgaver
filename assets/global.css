@@ -15,7 +15,32 @@
     --step-6: clamp(3.3592rem, 2.8691rem + 2.4507vi, 4.7684rem);
     --step-7: clamp(4.0311rem, 3.36rem + 3.3555vi, 5.9605rem);
   }
+  html {
+    line-height: 1.5;
+    background: oklch(97% .005 220);
+    block-size: auto;
+}
+
 body {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+
+main {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-block: 3rem;
+}
+
+article {
+    line-height: 1.5;
+    font-family: system-ui;
+
+    >*+* {
+        margin-block-start: var(--flow-space, 1.2em);
+    }
 
 }
 
