@@ -36,7 +36,7 @@ Der er følgende farver til rådighed som custom properties:
 3. Juster farven på brødtekst for at sikre, at overskrifter skiller sig ud, og overvej at bruge en lettere farve for at reducere visuel vægt af mindre vigtig tekst – brug de medfølgende gråtoner (i :root).
 4. Øg linjehøjden for at forbedre læsbarheden, baseret på skriftstørrelse og tekstens tæthed.
 
-> [!NOTE]  
+> [!NOTE]
 > **Bemærk, at denne branch allerede inkluderer et CSS Reset.**
 
 Du forventes at tage stilling til skriftstørrelser, linjeafstand, marginer, og farveværdier i din løsning.
